@@ -138,26 +138,27 @@ fn theta = []() {};
 
 
 
-fn _b  = bluebird;
-fn _b1 = blackbird;
-fn _b2 = bunting;
-fn _b3 = becard;
-fn _c  = cardinal;
-fn _d  = dove;
-fn _d1 = dovekies;
-fn _e  = eagle;
-fn _e1 = bald_eagle;
-fn _f  = finch;
-fn _g  = goldfinch;
-fn _h  = hummingbird;
-fn _i  = idiot;
-fn _j  = jay;
-fn _k  = kestrel;
-fn _ki = kite;
-fn _l  = lark;
-fn _m  = mockingbird;
-fn _m2 = double_mockingbird;
-fn _o  = owl;
-
+fn _b   = bluebird;
+fn _b1  = blackbird;
+fn _b2  = bunting;
+fn _b3  = becard;
+fn _c   = cardinal;
+fn _d   = dove;
+fn _d1  = dovekies;
+fn _e   = eagle;
+fn _e1  = bald_eagle;
+fn _f   = finch;
+fn _g   = goldfinch;
+fn _h   = hummingbird;
+fn _i   = idiot;
+fn _j   = jay;
+fn _k   = kestrel;
+fn _ki  = kite;
+fn _l   = lark;
+fn _m   = mockingbird;
+fn _m2  = double_mockingbird;
+fn _o   = owl;
+fn _phi = phoenix;
+fn _psi = psi;
 
 }
