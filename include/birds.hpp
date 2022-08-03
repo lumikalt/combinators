@@ -161,4 +161,4 @@ fn _o   = owl;
 fn _phi = phoenix;
 fn _psi = psi;
 
-}
+} // namespace combinators
