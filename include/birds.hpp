@@ -7,7 +7,7 @@ namespace combinators {
 fn apply = [](fn a) {
     return [=](auto&& b) {
         return a(b);
-    }
+    };
 };
 
 
@@ -153,9 +153,9 @@ fn owl = [](fn a, fn b) {
 };
 
 /*
-// This isn't really possible to represent
-// in actual code, as far as I can tell.
-// λa.(aa)(aa)
+// λa.aa(aa)
+// This is the `infinite recursion`
+// combinator, worthless for real code
 fn omega = []() {};
 */
 
@@ -172,7 +172,7 @@ fn phoenix = [](fn a, fn b, fn c) {
 fn psi = [](fn a, fn b) {
     return [=](auto&& c, auto&& d) {
         return a(b(c), b(d));
-    }
+    };
 };
 
 fn queer = []() {};
